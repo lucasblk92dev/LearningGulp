@@ -1,7 +1,7 @@
 {
-  "name": "gulp",
+  "name": "curso",
   "version": "1.0.0",
-  "description": "",
+  "description": "**commandos iniciais:**\r npm init -y\r npm install *",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
     "package-lock.json": "^1.0.0",
     "package.json": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasblk92dev/LearningGulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasblk92dev/LearningGulp/issues"
+  },
+  "homepage": "https://github.com/lucasblk92dev/LearningGulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/register": "^7.12.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
   }
 }
